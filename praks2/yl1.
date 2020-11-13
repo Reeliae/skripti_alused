@@ -1,7 +1,8 @@
-
 #!/bin/bash
 #
 # kasutaja tervitus
 # autor - Reelia Essa
 #
-echo "Tere, Kasutaja!"
+echo -n "Tere, "
+echo -n $(whoami)
+echo "!"
