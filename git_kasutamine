@@ -1,8 +1,22 @@
-linux:apt-get install git
+linux:
+
 paigaldamine
-$ git config --global user.name "John Doe"
-$ git config --global user.email johndoe@example.com
+apt-get install git
+
+$ git config --global user.name "Reelia"
+$ git config --global user.email kasutaja@domeen
 
 $ git config --global core.editor nano
+
 3. installeerimine ainult üks kord alguses 
 git init
+4. kasutamine
+
+a) lisamine jälgimisele ja muuudatuste fikseerimine
+git status
+git add faili_nimi
+git commit -m "muudatuste kirjeldus"
+
+b)muudatuste uurimine
+git log
+git show commiti_hash
