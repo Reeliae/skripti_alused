@@ -1,0 +1,7 @@
+
+#!/bin/bash
+#
+# kasutaja tervitus
+# autor - Reelia Essa
+#
+echo "Tere, Kasutaja!"
