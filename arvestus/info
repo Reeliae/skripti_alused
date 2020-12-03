@@ -1,0 +1,13 @@
+#!/bin/bash/
+#
+#Reelia, info, skripti ulesandeks on sisselogitud kasutajat tervitada ning valjastab kupaeva ja aja vastavalt hetkel olevale vaartusele
+#
+var="Tere$user"
+#kuupäeva ja kasutaja käsk
+now="$(date)"
+computer_name="$(hostname)"
+
+#
+echo "$var $computer_name"
+echo "Täna on : @$now"
+echo ""
