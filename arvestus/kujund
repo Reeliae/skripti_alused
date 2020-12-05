@@ -1,0 +1,16 @@
+#!/bin/bash/
+#
+#Reelia Essa, info, skripti ulesandeks on sisestada kujundi ridade arv,mis  vastavalt ridade arvule trukib selle
+#
+#mitu rida peab tulema
+rows=7
+#
+for((i=rows; i>=1; i--))
+do
+ for((j=1; j<=i; j++))
+ do
+#selle kÃkasuga valjastab numbri asemel tarni
+  echo -n "* "
+ done
+ echo
+done
