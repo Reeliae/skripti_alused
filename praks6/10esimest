@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+#10esimese arvu väljastamine tsükliga
+#
+for (( arv=1; arv<11; arv++))
+do
+echo $arv
+done
